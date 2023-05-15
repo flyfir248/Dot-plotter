@@ -40,7 +40,11 @@ python dotplot.py 10 5 seqA.fasta seqB.fasta "My Dotplot" mydotplot
 ```
 
 # Demonstration
-Demo 1 of execution of a commandline for this program, here The output of running the command ```"python dotplot.py 11 6 human_pax6_NM_001604.fasta mouse_pax6_NM_013627.fasta human-vs-mouse human-mouse.png"``` is a dotplot generated based on the two input sequences provided in FASTA format (human_pax6_NM_001604.fasta and mouse_pax6_NM_013627.fasta) with a window size of 11 and a stringency of 6. 
+Visualizing Dot plots with Matplotlib in Python :
+![Image description](mydotplot.png)
+
+
+The execution of a commandline for this program, here The output of running the command ```"python dotplot.py 11 6 human_pax6_NM_001604.fasta mouse_pax6_NM_013627.fasta human-vs-mouse human-mouse.png"``` is a dotplot generated based on the two input sequences provided in FASTA format (human_pax6_NM_001604.fasta and mouse_pax6_NM_013627.fasta) with a window size of 11 and a stringency of 6. 
 
 The resulting dotplot has a title of "human-vs-mouse" and is saved as an image file named "human-mouse.png". 
 
